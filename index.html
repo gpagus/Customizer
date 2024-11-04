@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+  <title>Customize</title>
+</head>
+
+<body>
+  <div id="container">
+    <aside>
+      <label for="title">Title:</label>
+      <input type="text" name="Title" id="title">
+      <input type="range" id="x-axis" name="x-axis" min="0" max="40" step="1" value="0">
+      <input type="range" id="y-axis" name="y-axis" min="0" max="40" step="1" value="0"> <br>
+
+      <label>Color:</label>
+      <label><input type="radio" name="color" value="black" checked> Black</label>
+      <label><input type="radio" name="color" value="white"> White</label> <br>
+
+      <label for="images-container">Images (drag to t-shirt):</label>
+      <div id="images-container">
+
+        <div class="image-item"><img src="./images/Donkey-Kong.png" alt="Donkey Kong"></div>
+        <div class="image-item"><img src="./images/Diddy-Kong.png" alt="Diddy Kong"></div>
+        <div class="image-item"><img src="./images/Kirby.png" alt="Kirby"></div>
+        <div class="image-item"><img src="./images/Link.png" alt="link"></div>
+        <div class="image-item"><img src="./images/Mario.png" alt="Mario"></div>
+        <div class="image-item"><img src="./images/Pac-man.png" alt="Pac-man"></div>
+        <div class="image-item"><img src="./images/Peach.png" alt="Peach"></div>
+        <div class="image-item"><img src="./images/Samus.png" alt="Samus"></div>
+        <div class="image-item"><img src="./images/Snake.png" alt="Snake"></div>
+        <div class="image-item"><img src="./images/Steve.png" alt="Steve"></div>
+        <div class="image-item"><img src="./images/Villager.png" alt="Villager"></div>
+        <div class="image-item"><img src="./images/Cloud.png" alt="Cloud"></div>
+        <div class="image-item"><img src="./images/Sora.png" alt="Sora"></div>
+        <div class="image-item"><img src="./images/Mewtwo.png" alt="Mewtwo"></div>
+        <div class="image-item"><img src="./images/Pikachu.png" alt="Pikachu"></div>
+
+      </div>
+
+    </aside>
+    <main>
+      <!-- T-shirt image -->
+      <div id="tshirt-container">
+        <img src="./images/black.PNG" alt="T-shirt" id="tshirt-image">
+
+        <!-- Elements on the T-shirt -->
+        <p id="title-text">title</p>
+        <img src="./images/Steve.png" alt="Character Image" id="character-image">
+        <img src="./images/Steve.png" alt="Small Character Image" id="small-character-image">
+        <p id="character-text">CHRACTER</p>
+      </div>
+      <div id="custom-text">
+        <p>Custom your T-shirt</p>
+      </div>
+
+    </main>
+  </div>
+</body>
+</html>
